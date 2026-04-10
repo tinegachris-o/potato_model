@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = ">=2.16.1"
+fastapi = ">=0.135.0"
+python-multipart = "*"
+pillow = "*"
+numpy = ">=2.0.0"
+matplotlib = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
